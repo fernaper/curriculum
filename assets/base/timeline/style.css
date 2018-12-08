@@ -99,7 +99,7 @@ body {
 .direction-r .flag:before {
   position: absolute;
   top: 50%;
-  right: -40px;
+  right: -41px;
   content: ' ';
   display: block;
   width: 12px;
