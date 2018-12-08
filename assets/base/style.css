@@ -200,3 +200,30 @@
 .space-top {
   padding-top: 10px;
 }
+
+.description {
+  margin-bottom: 10px;
+}
+
+.subsection {
+  padding-bottom: 15px;
+  margin-bottom: 10px;
+  border-bottom: 2px solid #e2e2e2;
+}
+
+.lastsubsection {
+  border-bottom: 0px;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+}
+
+.version {
+  vertical-align: middle;
+  font-size: 60%;
+  line-height: 1em;
+  margin-top: 17px;
+  margin-left: 10px;
+  background: rgb(248,248,248);
+  color: rgb(250,80,80);
+  border-radius: 3px
+}
