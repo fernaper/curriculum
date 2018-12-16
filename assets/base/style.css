@@ -210,6 +210,21 @@
   margin-bottom: 10px;
 }
 
+.technologies li {
+  background-color: #3582C4;
+  color: #fff;
+  font-size: 80%;
+  line-height: 1.5em;
+  border-radius: 20px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.textsection {
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
 .subsection {
   padding-bottom: 15px;
   margin-bottom: 10px;

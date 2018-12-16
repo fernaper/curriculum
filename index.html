@@ -33,7 +33,7 @@
     </div>
     <div class="container text-justify">
       <div class="row section section-right">
-        <div class="col-12">
+        <div class="col-12 textsection">
           <h1><i class="fas fa-info-circle"></i> Sobre mi:</h1>
           <p>
             Disfruto al máximo de la programación, me encanta enfrentarme a nuevos
@@ -254,8 +254,8 @@
         </div>
       </div>
       <div class="row section section-left">
-        <div class="col-12">
-          <h1><i class="fas fa-boxes"></i> Proyectos:</h1>
+        <div class="col-12 textsection">
+          <h1 class="text-left"><i class="fas fa-boxes"></i> Proyectos Principales:</h1>
           <div class="container space-top">
             <div class="row subsection">
               <div class="container">
@@ -263,7 +263,23 @@
                   <h2>AnimaDicer</h2>
                   <p class="version">v1.1.0 - Release</p>
                   <div class="description">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    <p>El objetivo de este proyecto era hacer más rápido los cálculos del juego de rol <a href="http://www.edgeent.com/libros/coleccion/anima_beyond_fantasy" target="_blank">Anima Beyond Fantasy</a> (juego de mesa de interpretación con dados, estilo Dungeons and Dragons) por medio de una aplicación de escritorio.</p>
+                    <p>Este proyecto incluye un documento Excel con todos los precalculos para crear un personaje siguiendo las reglas del juego (con más de 2000 dependencias y más de 20000 datos organizados en tablas e introducidos a mano).</p>
+                    <p>
+                      El proyecto es capaz de cargar dicho documento, extraer la información relevante para poder jugar y generar un documento json con información comprimida así como todas las funcionalidades para realizar los cálculos acorde
+                      a la ficha de personaje previamente cargada.
+                    </p>
+                    <p>Incluye funcionalidades como auto-actualizar versiones (cuando se sube una nueva versión en GitHub) o gestión de carga de multiples personajes simultáneamente.</p>
+                    <p>Actualmente y por petición popular me encuentro desarrollando en equipo la versión web completamente responsive y con funcionalidades extra.</p>
+                    <h5><b>Tecnologías usadas:</b></h5>
+                    <ul class="technologies">
+                      <li class="list-inline-item">Java</li>
+                      <li class="list-inline-item">Excel</li>
+                      <li class="list-inline-item">JSON</li>
+                      <li class="list-inline-item">HTML/Bootstrap</li>
+                      <li class="list-inline-item">CSS</li>
+                      <li class="list-inline-item">Javascript</li>
+                    </ul>
                   </div>
                 </div>
                 <div class="row">
@@ -277,7 +293,35 @@
                   <h2>Game-2048-AI</h2>
                   <p class="version">v1.0.0 - CR</p>
                   <div class="description">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    <p>
+                      Este proyecto es, por un lado, una implementación completa del famoso juego de móvil
+                      <a href="https://play2048.co/" target="_blank">2048</a> en forma de aplicación de escritorio
+                      (básado en un proyecto OpenSource creado por <a href="https://github.com/yangshun/2048-python">yangshun</a>)
+                      y por otro lado una Inteligencia Artificial capáz de jugar dicho juego.
+                    </p>
+                    <p>
+                      Para la implementación de dicha IA se ha utilizado una red neuronal multicapa entrenada
+                      por medio de un conjunto de datos generados de partidas previas utilizando diferentes
+                      heurísticas. Tales como: "random" (juega partidas con movimientos totalmente aleatorios),
+                      "corner" (trata de que la ficha más valor este siempre en una esquina, aunque con cierto ruido),
+                      "one_corner" (igual que el anterior pero manteniendose siempre en la misma esquina) y "explorer".
+                    </p>
+                    <p>
+                      La heurística "explorer" es la que mejor resultados ha dado. Genera árboles de decisión mirando
+                      las "N" próximas jugadas y quedándose con la elección que le lleva a la mejor solución (aquella en
+                      la que no haya perdido y haya alcanzado una mayor puntuación).
+                    </p>
+                    <p>
+                      Para el futuro quiero crear una heurística de entrenamiento basada en algoritmos evolutivos. No obstante,
+                      la IA ya es capaz de ganar el juego en muchas ocasiones.
+                    </p>
+                    <h5><b>Tecnologías usadas:</b></h5>
+                    <ul class="technologies">
+                      <li class="list-inline-item">Python</li>
+                      <li class="list-inline-item">tensorflow</li>
+                      <li class="list-inline-item">tflearn</li>
+                      <li class="list-inline-item">Programación Evolutiva</li>
+                    </ul>
                   </div>
                 </div>
                 <div class="row">
@@ -291,7 +335,38 @@
                   <h2>Chatbot</h2>
                   <p class="version">v1.0.0 - Release</p>
                   <div class="description">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    <p>
+                      Este es uno de los proyectos más ambiciosos y completos. Ha sido desarrollado por cuatro miembros (entre los que me encuentro) y dos directores
+                      de proyecto (uno ayudante). Fue desarrollado como trabajo de fin de grado y calificado con <b>10/10</b>.
+                    </p>
+                    <p>
+                      Consiste en un sistema capaz de consultar diferentes API's (como la de <a href="http://bioasq.org/" target="_blank">BioASQ</a> o <a href="https://simple.wikipedia.org/wiki/Main_Page" target="_blank">Simple Wikipedia</a>).
+                      Por tanto, esta realizado de una forma genérica, de modo que no es necesario hacer un gran cambio si
+                      se quiere utilizar una nueva fuente de conocimineto, de esta forma obtuvimos un sistema adaptable a
+                      distintos dominios.
+                    </p>
+                    <p>
+                      Para conseguirlo se hizo uso de librerías de procesamiento natural (inicialmente NLTK pero finalmente
+                      y tras un largo estudio se optó por Spacy) y librerías de extracción de conceptos (en este caso la
+                      librería <a href="https://github.com/agarsev/grafeno" target="_blank">Grafeno</a>, actualmente en desarrollo y sobre la
+                      que se hicieron multiples mejoras).
+                    </p>
+                    <p>
+                      El proceso (de modo simplificado) del sistema consiste en: <b>Ánalisis de la consulta introducida</b>
+                      (con Spacy) > <b>Obtención de Información Textual</b> (con Grafeno, para obtener un grafo) >
+                      <b>Obtención de la Respuesta</b> (dicho grafo se comparará con el conocimiento del
+                      sistema a través de consultas autogeneradas en Neo4J) > <b>Generación textual de la respuesta</b>
+                      (con un módulo de Grafeno modificado por nosotros que realiza el proceso de linearización de grafos).
+                    </p>
+                    <h5><b>Tecnologías usadas:</b></h5>
+                    <ul class="technologies">
+                      <li class="list-inline-item">Python</li>
+                      <li class="list-inline-item">Spacy</li>
+                      <li class="list-inline-item">MongoDB</li>
+                      <li class="list-inline-item">Neo4J</li>
+                      <li class="list-inline-item">Natural Language Processing</li>
+                      <li class="list-inline-item">Grafeno</li>
+                    </ul>
                   </div>
                 </div>
                 <div class="row">
@@ -302,14 +377,32 @@
             <div class="row subsection lastsubsection">
               <div class="container">
                 <div class="row">
-                  <h2>RubikControl</h2>
-                  <p class="version">v1.0.0 - Release</p>
+                  <h2>Otros</h2>
                   <div class="description">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    <p>
+                      Los proyectos principales están mencionado arriba, no obstante considero interesante,
+                      mencionar por encima los otros proyectos en los que he trabajado por mi cuenta y con
+                      los que tanto he aprendido.
+                    </p>
+                    <ul>
+                      <li><a href="https://github.com/fernaper/RubikControl" target="_blank">RubikControl</a>: Sistema profesional para medir los tiempos y generar estadísticas de resolución de las diferentes versiones del cubo de Rubik (en Java).</li>
+                      <li><a href="https://github.com/fernaper/CodeWars" target="_blank">CodeWars</a>: Proyecto con todas las soluciones que he realizado para los problemas de la página con el mismo nombre (en Python y Java principalmente).</li>
+                      <li><a href="https://github.com/fernaper/GoatQueen" target="_blank">GoatQueen</a> (por ahora repositorio privado): Juego tablero 3D en proceso de desarrollo en Unity con C#.</li>
+                      <li><a href="https://github.com/fernaper/SplayTree" target="_blank">SplayTree</a>: Árbol binario de busqueda autoajustable desarrollado en C++</li>
+                      <li><a href="https://github.com/fernaper/WorldGenerator" target="_blank">WorldGenerator</a>: Generador de mundos y laberintos aleatorios siguiendo un algoritmo eficiente enteramente propio. Desarrollado en C++ y haciendo uso de la librería SFML.</li>
+                    </ul>
+                    <h5><b>Tecnologías usadas:</b></h5>
+                    <ul class="technologies">
+                      <li class="list-inline-item">Python</li>
+                      <li class="list-inline-item">Java</li>
+                      <li class="list-inline-item">C++</li>
+                      <li class="list-inline-item">C#</li>
+                      <li class="list-inline-item">Unity</li>
+                    </ul>
                   </div>
                 </div>
                 <div class="row">
-                  <a href="https://github.com/fernaper/RubikControl" target="_blank" class="btn btn-dark ml-auto"><i class="fab fa-github-alt"></i> Ver proyecto</a>
+                  <a href="https://github.com/fernaper/" target="_blank" class="btn btn-dark ml-auto"><i class="fab fa-github-alt"></i> Visitar GitHub</a>
                 </div>
               </div>
             </div>
