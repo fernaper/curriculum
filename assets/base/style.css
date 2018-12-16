@@ -42,6 +42,7 @@
 }
 
 .section {
+  height: 97%;
   padding-bottom: 15px;
   padding-top: 15px;
   margin-top: 15px;
@@ -199,6 +200,10 @@
 
 .space-top {
   padding-top: 10px;
+}
+
+.space-left {
+  padding-left: 15px;
 }
 
 .description {

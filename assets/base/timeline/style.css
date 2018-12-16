@@ -180,7 +180,7 @@ body {
 
 /* ================ Timeline Media Queries ================ */
 
-@media screen and (max-width: 770px) {
+/*@media screen and (max-width: 2400px) {*/
 
 .timeline {
  	width: 100%;
@@ -275,7 +275,7 @@ body {
   z-index: 15;
 }
 
-}
+/*}*/
 
 @media screen and (min-width: 400px ?? max-width: 660px) {
 
