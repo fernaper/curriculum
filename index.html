@@ -20,10 +20,12 @@
       <div class="row section first-section">
         <div class="col-md-8 col-xs-12 text-center vertical-align">
           <h1>Fernando Pérez Gutiérrez</h1>
-          <p>
-            <i class="fas fa-book"></i> Desarrollador Backend y estudiante de Master Universitario en Ingeniería Informática.<br>
-            <i class="fas fa-map-marker-alt"></i> Tres Cantos, Madrid, España <br>
-            <i class="fas fa-envelope"></i> <a href="mailto:fernaperg@gmail.com">fernaperg@gmail.com</a>
+          <p class="bigger-line">
+            <i class="fas fa-calendar-alt"></i> <span id="age">0</span><br>
+            <i class="fas fa-desktop"></i> Desarrollador Backend e Inteligencia Artificial.<br>
+            <i class="fas fa-book"></i> Estudiante de Master Universitario en Ingeniería Informática.<br>
+            <i class="fas fa-map-marker-alt"></i> Tres Cantos, Madrid, España<br>
+            <i class="fas fa-envelope"></i> <a href="mailto:fernaperg@gmail.com">fernaperg@gmail.com</a> <br>
           </p>
         </div>
         <div class="col-md-4 col-xs-12 text-center">
@@ -158,9 +160,10 @@
                 				<span class="time-wrapper"><span class="time">ago. de 2018 - actualidad</span></span>
                 			</div>
                 			<div class="desc">
-                        Desarrollo y mantenimiento de servidores y programador Python
+                        Desarrollo y mantenimiento de servidores, programador Python
                         en el área de Inteligencia Artificial (utilizando entre otras,
-                        redes neuronales para reconocimiento de imágenes en tiempo real).
+                        redes neuronales para reconocimiento de imágenes en tiempo real),
+                        con personal a cargo.
                       </div>
                 		</div>
                 	</li>
@@ -171,7 +174,7 @@
                 				<span class="time-wrapper"><span class="time">2017 - 2018</span></span>
                 			</div>
                 			<div class="desc">
-                        Desarrollo de un Chatbot adaptable a distintos dominios,
+                        Desarrollo de un Sistema de búsqueda de respuestas adaptable a distintos dominios,
                         usando técnicas de procesamiento de lenguaje natural y
                         participando en el concurso de programación anual de Bioasq Challenge.
                       </div>
@@ -352,11 +355,14 @@
                       que se hicieron multiples mejoras).
                     </p>
                     <p>
-                      El proceso (de modo simplificado) del sistema consiste en: <b>Ánalisis de la consulta introducida</b>
-                      (con Spacy) > <b>Obtención de Información Textual</b> (con Grafeno, para obtener un grafo) >
-                      <b>Obtención de la Respuesta</b> (dicho grafo se comparará con el conocimiento del
-                      sistema a través de consultas autogeneradas en Neo4J) > <b>Generación textual de la respuesta</b>
-                      (con un módulo de Grafeno modificado por nosotros que realiza el proceso de linearización de grafos).
+                      El proceso (de modo simplificado) del sistema consiste en:
+                      <ol>
+                        <li><b>Ánalisis de la consulta introducida</b>: Con Spacy.</li>
+                        <li><b>Obtención de Información Textual</b>: Con Grafeno, para obtener un grafo.</li>
+                        <li><b>Obtención de la Respuesta</b>: Comparando dicho grafo con el conocimiento del
+                        sistema a través de consultas autogeneradas en Neo4J.</li>
+                        <li><b>Generación textual de la respuesta</b>: Con un módulo de Grafeno modificado por nosotros que realiza el proceso de linearización de grafos.</li>
+                      </ol>
                     </p>
                     <h5><b>Tecnologías usadas:</b></h5>
                     <ul class="technologies">
@@ -428,5 +434,6 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
     <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/mustache.js/0.7.2/mustache.min.js"></script>
     <script type="text/javascript" src="assets/base/github-activity/script.js"></script>
+    <script type="text/javascript" src="assets/base/script.js"></script>
   </body>
 </html>
