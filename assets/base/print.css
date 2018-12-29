@@ -1,0 +1,33 @@
+body {
+  font: 100%/150% Georgia, "Times New Roman", Times, serif;
+}
+
+a:not(#mail):after {
+  content: " (" attr(href) ")";
+}
+
+.do-not-print {
+  display: none !important;
+}
+
+.print-exactly {
+  -webkit-print-color-adjust: exact;
+}
+
+.page-break	{
+  display: block;
+  page-break-before: always;
+}
+
+.textsection {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+#mzn {
+  background-color: #57d1ba;
+}
+
+@page {
+    margin: 2cm;
+}

@@ -14,16 +14,19 @@
     <link rel="stylesheet" href="assets/base/timeline/style.css"/>
     <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/octicons/2.0.2/octicons.min.css" />
     <link rel="stylesheet" href="assets/base/github-activity/style.css" />
+    <link rel="stylesheet" href="assets/base/print.css" media="print" />
   </head>
   <body>
     <div class="container-fluid">
       <div class="row section first-section">
         <div class="col-md-8 col-xs-12 text-center vertical-align">
           <h1>Fernando Pérez Gutiérrez</h1>
-          <p>
-            <i class="fas fa-book"></i> Desarrollador Backend y estudiante de Master Universitario en Ingeniería Informática.<br>
-            <i class="fas fa-map-marker-alt"></i> Tres Cantos, Madrid, España <br>
-            <i class="fas fa-envelope"></i> <a href="mailto:fernaperg@gmail.com">fernaperg@gmail.com</a>
+          <p class="bigger-line">
+            <i class="fas fa-desktop"></i> Desarrollador Backend e Inteligencia Artificial.<br>
+            <i class="fas fa-book"></i> Estudiante de Master Universitario en Ingeniería Informática.<br>
+            <i class="fas fa-map-marker-alt"></i> Tres Cantos, Madrid, España<br>
+            <i class="fas fa-calendar-alt"></i> <span id="age">0</span><br>
+            <i class="fas fa-envelope"></i> <a id="mail" href="mailto:fernaperg@gmail.com">fernaperg@gmail.com</a> <br>
           </p>
         </div>
         <div class="col-md-4 col-xs-12 text-center">
@@ -56,12 +59,12 @@
           </p>
         </div>
       </div>
-      <div class="row">
+      <div class="row page-break">
         <div class="col-md-6 col-xs-12">
           <div class="section section-left space-left">
             <h1><i class="fas fa-brain"></i> Lenguajes:</h1>
             <div class="container space-top">
-              <div class="row">
+              <div class="row print-exactly">
                 <div class="col-10 offset-1">
                   <p class="progress-value"><i class="fab fa-python"></i> Python:</p>
                   <div class="progress">
@@ -120,7 +123,7 @@
           <div class="section section-left space-left">
             <h1><i class="fas fa-database"></i> BBDD:</h1>
             <div class="container space-top">
-              <div class="row">
+              <div class="row print-exactly">
                 <div class="col-10 offset-1">
                   <p class="progress-value"><i class="fas fa-table"></i> MySQL:</p>
                   <div class="progress">
@@ -144,13 +147,13 @@
           </div>
         </div>
       </div>
-      <div class="row">
+      <div class="row page-break">
         <div class="col-md-6 col-xs-12">
           <div class="section section-right space-left">
             <h1><i class="fas fa-globe"></i> Experiencia:</h1>
             <div class="container space-top">
               <div class="row">
-                <ul class="timeline">
+                <ul class="timeline print-exactly">
                 	<li>
                 		<div class="direction-r">
                 			<div class="flag-wrapper">
@@ -158,9 +161,10 @@
                 				<span class="time-wrapper"><span class="time">ago. de 2018 - actualidad</span></span>
                 			</div>
                 			<div class="desc">
-                        Desarrollo y mantenimiento de servidores y programador Python
+                        Desarrollo y mantenimiento de servidores, programador Python
                         en el área de Inteligencia Artificial (utilizando entre otras,
-                        redes neuronales para reconocimiento de imágenes en tiempo real).
+                        redes neuronales para reconocimiento de imágenes en tiempo real),
+                        con personal a cargo.
                       </div>
                 		</div>
                 	</li>
@@ -171,7 +175,7 @@
                 				<span class="time-wrapper"><span class="time">2017 - 2018</span></span>
                 			</div>
                 			<div class="desc">
-                        Desarrollo de un Chatbot adaptable a distintos dominios,
+                        Desarrollo de un Sistema de búsqueda de respuestas adaptable a distintos dominios,
                         usando técnicas de procesamiento de lenguaje natural y
                         participando en el concurso de programación anual de Bioasq Challenge.
                       </div>
@@ -193,12 +197,12 @@
             </div>
           </div>
         </div>
-        <div class="col-md-6 col-xs-12">
+        <div class="col-md-6 col-xs-12 page-break">
           <div class="section section-right space-left">
             <h1><i class="fas fa-graduation-cap"></i> Educación:</h1>
             <div class="container space-top">
               <div class="row">
-                <ul class="timeline">
+                <ul class="timeline print-exactly">
                 	<li>
                 		<div class="direction-r">
                 			<div class="flag-wrapper">
@@ -253,7 +257,7 @@
           </div>
         </div>
       </div>
-      <div class="row section section-left">
+      <div class="row section section-left page-break">
         <div class="col-12 textsection">
           <h1 class="text-left"><i class="fas fa-boxes"></i> Proyectos Principales:</h1>
           <div class="container space-top">
@@ -272,7 +276,7 @@
                     <p>Incluye funcionalidades como auto-actualizar versiones (cuando se sube una nueva versión en GitHub) o gestión de carga de multiples personajes simultáneamente.</p>
                     <p>Actualmente y por petición popular me encuentro desarrollando en equipo la versión web completamente responsive y con funcionalidades extra.</p>
                     <h5><b>Tecnologías usadas:</b></h5>
-                    <ul class="technologies">
+                    <ul class="technologies print-exactly">
                       <li class="list-inline-item">Java</li>
                       <li class="list-inline-item">Excel</li>
                       <li class="list-inline-item">JSON</li>
@@ -282,7 +286,7 @@
                     </ul>
                   </div>
                 </div>
-                <div class="row">
+                <div class="row do-not-print">
                   <a href="https://github.com/fernaper/AnimaDicer" target="_blank" class="btn btn-dark ml-auto"><i class="fab fa-github-alt"></i> Ver proyecto</a>
                 </div>
               </div>
@@ -302,21 +306,22 @@
                     <p>
                       Para la implementación de dicha IA se ha utilizado una red neuronal multicapa entrenada
                       por medio de un conjunto de datos generados de partidas previas utilizando diferentes
-                      heurísticas. Tales como: "random" (juega partidas con movimientos totalmente aleatorios),
-                      "corner" (trata de que la ficha más valor este siempre en una esquina, aunque con cierto ruido),
-                      "one_corner" (igual que el anterior pero manteniendose siempre en la misma esquina) y "explorer".
+                      heurísticas. Tales como: <code>random</code> (juega partidas con movimientos totalmente aleatorios),
+                      <code>corner</code> (trata de que la ficha de más valor este siempre en una esquina, aunque con cierto ruido),
+                      <code>one_corner</code> (igual que el anterior pero manteniendose siempre en la misma esquina) y <code>explorer</code>.
                     </p>
                     <p>
-                      La heurística "explorer" es la que mejor resultados ha dado. Genera árboles de decisión mirando
+                      La heurística <code>explorer</code> es la que mejor resultados ha dado. Genera árboles de decisión mirando
                       las "N" próximas jugadas y quedándose con la elección que le lleva a la mejor solución (aquella en
                       la que no haya perdido y haya alcanzado una mayor puntuación).
                     </p>
                     <p>
-                      Para el futuro quiero crear una heurística de entrenamiento basada en algoritmos evolutivos. No obstante,
-                      la IA ya es capaz de ganar el juego en muchas ocasiones.
+                      Para el futuro planeo mejorar <code>explorer</code> (para hacer que realice más podas de caminos "poco prometedores") y
+                      crear una heurística de entrenamiento basada en algoritmos evolutivos. No obstante, la IA ya es capaz de pasarse el
+                      juego en muchas ocasiones (obtener al menos una ficha de valor 2048).
                     </p>
                     <h5><b>Tecnologías usadas:</b></h5>
-                    <ul class="technologies">
+                    <ul class="technologies print-exactly">
                       <li class="list-inline-item">Python</li>
                       <li class="list-inline-item">tensorflow</li>
                       <li class="list-inline-item">tflearn</li>
@@ -324,7 +329,7 @@
                     </ul>
                   </div>
                 </div>
-                <div class="row">
+                <div class="row do-not-print">
                   <a href="https://github.com/fernaper/Game-2048-AI" target="_blank" class="btn btn-dark ml-auto"><i class="fab fa-github-alt"></i> Ver proyecto</a>
                 </div>
               </div>
@@ -332,7 +337,7 @@
             <div class="row subsection">
               <div class="container">
                 <div class="row">
-                  <h2>Chatbot</h2>
+                  <h2>Sistema de búsqueda de respuestas</h2>
                   <p class="version">v1.0.0 - Release</p>
                   <div class="description">
                     <p>
@@ -352,14 +357,17 @@
                       que se hicieron multiples mejoras).
                     </p>
                     <p>
-                      El proceso (de modo simplificado) del sistema consiste en: <b>Ánalisis de la consulta introducida</b>
-                      (con Spacy) > <b>Obtención de Información Textual</b> (con Grafeno, para obtener un grafo) >
-                      <b>Obtención de la Respuesta</b> (dicho grafo se comparará con el conocimiento del
-                      sistema a través de consultas autogeneradas en Neo4J) > <b>Generación textual de la respuesta</b>
-                      (con un módulo de Grafeno modificado por nosotros que realiza el proceso de linearización de grafos).
+                      El proceso (de modo simplificado) del sistema consiste en:
+                      <ol>
+                        <li><b>Ánalisis de la consulta introducida</b>: Con Spacy.</li>
+                        <li><b>Obtención de Información Textual</b>: Con Grafeno, para obtener un grafo.</li>
+                        <li><b>Obtención de la Respuesta</b>: Comparando dicho grafo con el conocimiento del
+                        sistema a través de consultas autogeneradas en Neo4J.</li>
+                        <li><b>Generación textual de la respuesta</b>: Con un módulo de Grafeno modificado por nosotros que realiza el proceso de linearización de grafos.</li>
+                      </ol>
                     </p>
                     <h5><b>Tecnologías usadas:</b></h5>
-                    <ul class="technologies">
+                    <ul class="technologies print-exactly">
                       <li class="list-inline-item">Python</li>
                       <li class="list-inline-item">Spacy</li>
                       <li class="list-inline-item">MongoDB</li>
@@ -369,7 +377,8 @@
                     </ul>
                   </div>
                 </div>
-                <div class="row">
+                <div class="row do-not-print">
+                  <a href="https://eprints.ucm.es/48879/1/100.pdf" target="_blank" class="btn btn-dark"><i class="fas fa-file"></i> Ver memoria</a>
                   <a href="https://github.com/bselles/Sistema-de-Busqueda-de-respuestas-adaptable-a-distintos-dominios" target="_blank" class="btn btn-dark ml-auto"><i class="fab fa-github-alt"></i> Ver proyecto</a>
                 </div>
               </div>
@@ -393,7 +402,7 @@
                       <li><a href="https://github.com/fernaper/WorldGenerator" target="_blank">WorldGenerator</a>: Generador de mundos y laberintos aleatorios siguiendo un algoritmo eficiente enteramente propio. Desarrollado en C++ y haciendo uso de la librería SFML.</li>
                     </ul>
                     <h5><b>Tecnologías usadas:</b></h5>
-                    <ul class="technologies">
+                    <ul class="technologies print-exactly">
                       <li class="list-inline-item">Python</li>
                       <li class="list-inline-item">Java</li>
                       <li class="list-inline-item">C++</li>
@@ -402,7 +411,7 @@
                     </ul>
                   </div>
                 </div>
-                <div class="row">
+                <div class="row do-not-print">
                   <a href="https://github.com/fernaper/" target="_blank" class="btn btn-dark ml-auto"><i class="fab fa-github-alt"></i> Visitar GitHub</a>
                 </div>
               </div>
@@ -410,7 +419,7 @@
           </div>
         </div>
       </div>
-      <div class="row section section-right last-section">
+      <div class="row section section-right last-section do-not-print">
         <div class="col-12">
           <h1><i class="fab fa-github"></i> GitHub:</h1>
           <div class="container space-top">
@@ -429,5 +438,6 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
     <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/mustache.js/0.7.2/mustache.min.js"></script>
     <script type="text/javascript" src="assets/base/github-activity/script.js"></script>
+    <script type="text/javascript" src="assets/base/script.js"></script>
   </body>
 </html>

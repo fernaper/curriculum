@@ -1,3 +1,10 @@
+code {
+  padding: 2px 4px;
+  color: #c0341d;
+  background-color: #fbe5e1;
+  border-radius: 4px;
+}
+
 .vertical-align {
   margin-top: auto;
   margin-bottom: auto;
@@ -65,6 +72,7 @@
 
 .first-section {
   margin-top: 0px;
+  border-radius: 0px;
   border-top-left-radius: 0px;
   border-top-right-radius: 0px;
   background-color: #303030;
@@ -198,6 +206,10 @@
   font-size: 17px;
 }
 
+.bigger-line {
+  line-height: 2em;
+}
+
 .space-top {
   padding-top: 10px;
 }
@@ -207,6 +219,7 @@
 }
 
 .description {
+  margin-top: 10px;
   margin-bottom: 10px;
 }
 
@@ -226,8 +239,8 @@
 }
 
 .subsection {
-  padding-bottom: 15px;
-  margin-bottom: 10px;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
   border-bottom: 2px solid #e2e2e2;
 }
 
@@ -240,10 +253,11 @@
 .version {
   vertical-align: middle;
   font-size: 60%;
-  line-height: 1em;
+  line-height: 1.4em;
+  padding: 2px 4px;
   margin-top: 17px;
   margin-left: 10px;
   background: rgb(248,248,248);
   color: rgb(250,80,80);
-  border-radius: 3px
+  border-radius: 5px;
 }
