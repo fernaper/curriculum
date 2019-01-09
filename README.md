@@ -1,7 +1,7 @@
 # [Curriculum Vitae](https://fernaper.github.io/curriculum/)
 
+<br><a href="https://fernaper.github.io/curriculum/" target="_blank"><img src="assets/img/face.png" width="200"/></a><br>
 Puedes acceder a la web con el curriculum completo [Aquí](https://fernaper.github.io/curriculum/).
-<br><img src="assets/img/face.png" width="200"/>
 
 ## INFORMACIÓN DE CONTACTO
 
