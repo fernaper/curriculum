@@ -1,6 +1,8 @@
-# Curriculum Vitae
+# [Curriculum Vitae](https://fernaper.github.io/curriculum/)
 
 Puedes acceder a la web con el curriculum completo [Aquí](https://fernaper.github.io/curriculum/).
+
+![Game 2048](assets/img/face.png)
 
 ## INFORMACIÓN DE CONTACTO
 
