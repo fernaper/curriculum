@@ -2,7 +2,7 @@
 
 Puedes acceder a la web con el curriculum completo [Aquí](https://fernaper.github.io/curriculum/).
 
-![Game 2048](assets/img/face.png)
+![Game 2048](assets/img/face.png | width=100)
 
 ## INFORMACIÓN DE CONTACTO
 
