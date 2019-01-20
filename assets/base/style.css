@@ -1,7 +1,7 @@
 body {
   background-image: url("../img/bg_rain.jpg");
   background-repeat: no-repeat;
-  background-position: right top;
+  background-size: 100% 100%;
   background-attachment: fixed;
   opacity: 0.97;
 }
