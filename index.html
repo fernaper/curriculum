@@ -31,14 +31,14 @@
           </p>
         </div>
         <div class="col-md-4 col-xs-12 text-center">
-          <img src="assets/img/face.png" class="face" alt="Fernando Pérez Gutiérrez">
+          <img src="assets/img/face.png" class="face print-half" alt="Fernando Pérez Gutiérrez">
         </div>
       </div>
     </div>
     <div class="container text-justify">
       <div class="row section section-right">
         <div class="col-12 textsection">
-          <h1><i class="fas fa-info-circle"></i> Sobre mi:</h1>
+          <h1 class="print-small"><i class="fas fa-info-circle"></i> Sobre mi:</h1>
           <p>
             Disfruto al máximo de la programación, me encanta enfrentarme a nuevos
             retos y superarlos. Esto se puede ver, tanto en los varios proyectos
@@ -54,14 +54,14 @@
             <b>Redes Neuronales</b>.
           </p>
           <p>
-            Hablando de otros temas, me encanta hacer deporte, trucos de magia,
+            Hablando de otros temas, me encanta hacer deporte, trucos de magia, conocer gente y
             enfrentarme a nuevos retos mentales (por ejemplo, el cubo de rubik o
-            páginas como <a href="https://www.codewars.com" target="_blank">CodeWars</a>) y conocer gente.
+            páginas como <a href="https://www.codewars.com" target="_blank">CodeWars</a>).
           </p>
         </div>
       </div>
-      <div class="row page-break">
-        <div class="col-md-6 col-xs-12">
+      <div class="row">
+        <div class="col-md-6 col-xs-12 print-small">
           <div class="section section-left space-left">
             <h1><i class="fas fa-brain"></i> Lenguajes:</h1>
             <div class="container space-top">
@@ -120,7 +120,7 @@
             </div>
           </div>
         </div>
-        <div class="col-md-6 col-xs-12">
+        <div class="col-md-6 col-xs-12 print-small">
           <div class="section section-left space-left">
             <h1><i class="fas fa-database"></i> BBDD:</h1>
             <div class="container space-top">
@@ -148,10 +148,10 @@
           </div>
         </div>
       </div>
-      <div class="row page-break">
+      <div class="row">
         <div class="col-md-6 col-xs-12">
           <div class="section section-right space-left">
-            <h1><i class="fas fa-globe"></i> Experiencia:</h1>
+            <h1 class="print-small"><i class="fas fa-globe"></i> Experiencia:</h1>
             <div class="container space-top">
               <div class="row">
                 <ul class="timeline print-exactly">
@@ -200,7 +200,7 @@
         </div>
         <div class="col-md-6 col-xs-12 page-break">
           <div class="section section-right space-left">
-            <h1><i class="fas fa-graduation-cap"></i> Educación:</h1>
+            <h1 class="print-small"><i class="fas fa-graduation-cap"></i> Educación:</h1>
             <div class="container space-top">
               <div class="row">
                 <ul class="timeline print-exactly">
@@ -258,87 +258,14 @@
           </div>
         </div>
       </div>
-      <div class="row section section-left page-break">
+      <div class="row section section-left">
         <div class="col-12 textsection">
-          <h1 class="text-left"><i class="fas fa-boxes"></i> Proyectos Principales:</h1>
+          <h1 class="text-left print-small"><i class="fas fa-boxes"></i> Proyectos Principales:</h1>
           <div class="container space-top">
             <div class="row subsection">
               <div class="container">
                 <div class="row">
-                  <h2>AnimaDicer</h2>
-                  <p class="version">v1.1.0 - Release</p>
-                  <div class="description">
-                    <p>El objetivo de este proyecto era hacer más rápido los cálculos del juego de rol <a href="http://www.edgeent.com/libros/coleccion/anima_beyond_fantasy" target="_blank">Anima Beyond Fantasy</a> (juego de mesa de interpretación con dados, estilo Dungeons and Dragons) por medio de una aplicación de escritorio.</p>
-                    <p>Este proyecto incluye un documento Excel con todos los precalculos para crear un personaje siguiendo las reglas del juego (con más de 2000 dependencias y más de 20000 datos organizados en tablas e introducidos a mano).</p>
-                    <p>
-                      El proyecto es capaz de cargar dicho documento, extraer la información relevante para poder jugar y generar un documento json con información comprimida así como todas las funcionalidades para realizar los cálculos acorde
-                      a la ficha de personaje previamente cargada.
-                    </p>
-                    <p>Incluye funcionalidades como auto-actualizar versiones (cuando se sube una nueva versión en GitHub) o gestión de carga de multiples personajes simultáneamente.</p>
-                    <p>Actualmente y por petición popular me encuentro desarrollando en equipo la versión web completamente responsive y con funcionalidades extra.</p>
-                    <h5><b>Tecnologías usadas:</b></h5>
-                    <ul class="technologies print-exactly">
-                      <li class="list-inline-item">Java</li>
-                      <li class="list-inline-item">Excel</li>
-                      <li class="list-inline-item">JSON</li>
-                      <li class="list-inline-item">HTML/Bootstrap</li>
-                      <li class="list-inline-item">CSS</li>
-                      <li class="list-inline-item">Javascript</li>
-                    </ul>
-                  </div>
-                </div>
-                <div class="row do-not-print">
-                  <a href="https://github.com/fernaper/AnimaDicer" target="_blank" class="btn btn-dark ml-auto"><i class="fab fa-github-alt"></i> Ver proyecto</a>
-                </div>
-              </div>
-            </div>
-            <div class="row subsection">
-              <div class="container">
-                <div class="row">
-                  <h2>Game-2048-AI</h2>
-                  <p class="version">v1.0.0 - CR</p>
-                  <div class="description">
-                    <p>
-                      Este proyecto es, por un lado, una implementación completa del famoso juego de móvil
-                      <a href="https://play2048.co/" target="_blank">2048</a> en forma de aplicación de escritorio
-                      (básado en un proyecto OpenSource creado por <a href="https://github.com/yangshun/2048-python">yangshun</a>)
-                      y por otro lado una Inteligencia Artificial capaz de jugar dicho juego.
-                    </p>
-                    <p>
-                      Para la implementación de dicha IA se ha utilizado una red neuronal multicapa entrenada
-                      por medio de un conjunto de datos generados de partidas previas utilizando diferentes
-                      heurísticas. Tales como: <code>random</code> (juega partidas con movimientos totalmente aleatorios),
-                      <code>corner</code> (trata de que la ficha de más valor este siempre en una esquina, aunque con cierto ruido),
-                      <code>one_corner</code> (igual que el anterior pero manteniendose siempre en la misma esquina) y <code>explorer</code>.
-                    </p>
-                    <p>
-                      La heurística <code>explorer</code> es la que mejor resultados ha dado. Genera árboles de decisión mirando
-                      las "N" próximas jugadas y quedándose con la elección que le lleva a la mejor solución (aquella en
-                      la que no haya perdido y haya alcanzado una mayor puntuación).
-                    </p>
-                    <p>
-                      Para el futuro planeo mejorar <code>explorer</code> (para hacer que realice más podas de caminos "poco prometedores") y
-                      crear una heurística de entrenamiento basada en algoritmos evolutivos. No obstante, la IA ya es capaz de pasarse el
-                      juego en muchas ocasiones (obtener al menos una ficha de valor 2048).
-                    </p>
-                    <h5><b>Tecnologías usadas:</b></h5>
-                    <ul class="technologies print-exactly">
-                      <li class="list-inline-item">Python</li>
-                      <li class="list-inline-item">tensorflow</li>
-                      <li class="list-inline-item">tflearn</li>
-                      <li class="list-inline-item">Programación Evolutiva</li>
-                    </ul>
-                  </div>
-                </div>
-                <div class="row do-not-print">
-                  <a href="https://github.com/fernaper/Game-2048-AI" target="_blank" class="btn btn-dark ml-auto"><i class="fab fa-github-alt"></i> Ver proyecto</a>
-                </div>
-              </div>
-            </div>
-            <div class="row subsection">
-              <div class="container">
-                <div class="row">
-                  <h2>Sistema de búsqueda de respuestas</h2>
+                  <h2 class="print-small">Sistema de búsqueda de respuestas</h2>
                   <p class="version">v1.0.0 - Release</p>
                   <div class="description">
                     <p>
@@ -384,10 +311,83 @@
                 </div>
               </div>
             </div>
+            <div class="row subsection">
+              <div class="container">
+                <div class="row">
+                  <h2 class="print-small">Game-2048-AI</h2>
+                  <p class="version">v1.0.0 - CR</p>
+                  <div class="description">
+                    <p>
+                      Este proyecto es, por un lado, una implementación completa del famoso juego de móvil
+                      <a href="https://play2048.co/" target="_blank">2048</a> en forma de aplicación de escritorio
+                      (básado en un proyecto OpenSource creado por <a href="https://github.com/yangshun/2048-python">yangshun</a>)
+                      y por otro lado una Inteligencia Artificial capaz de jugar dicho juego.
+                    </p>
+                    <p>
+                      Para la implementación de dicha IA se ha utilizado una red neuronal multicapa entrenada
+                      por medio de un conjunto de datos generados de partidas previas utilizando diferentes
+                      heurísticas. Tales como: <code>random</code> (juega partidas con movimientos totalmente aleatorios),
+                      <code>corner</code> (trata de que la ficha de más valor este siempre en una esquina, aunque con cierto ruido),
+                      <code>one_corner</code> (igual que el anterior pero manteniendose siempre en la misma esquina) y <code>explorer</code>.
+                    </p>
+                    <p>
+                      La heurística <code>explorer</code> es la que mejor resultados ha dado. Genera árboles de decisión mirando
+                      las "N" próximas jugadas y quedándose con la elección que le lleva a la mejor solución (aquella en
+                      la que no haya perdido y haya alcanzado una mayor puntuación).
+                    </p>
+                    <p>
+                      Para el futuro planeo mejorar <code>explorer</code> (para hacer que realice más podas de caminos "poco prometedores") y
+                      crear una heurística de entrenamiento basada en algoritmos evolutivos. No obstante, la IA ya es capaz de pasarse el
+                      juego en muchas ocasiones (obtener al menos una ficha de valor 2048).
+                    </p>
+                    <h5><b>Tecnologías usadas:</b></h5>
+                    <ul class="technologies print-exactly">
+                      <li class="list-inline-item">Python</li>
+                      <li class="list-inline-item">tensorflow</li>
+                      <li class="list-inline-item">tflearn</li>
+                      <li class="list-inline-item">Programación Evolutiva</li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="row do-not-print">
+                  <a href="https://github.com/fernaper/Game-2048-AI" target="_blank" class="btn btn-dark ml-auto"><i class="fab fa-github-alt"></i> Ver proyecto</a>
+                </div>
+              </div>
+            </div>
+            <div class="row subsection">
+              <div class="container">
+                <div class="row">
+                  <h2 class="print-small">AnimaDicer</h2>
+                  <p class="version">v1.1.0 - Release</p>
+                  <div class="description">
+                    <p>El objetivo de este proyecto era hacer más rápido los cálculos del juego de rol <a href="http://www.edgeent.com/libros/coleccion/anima_beyond_fantasy" target="_blank">Anima Beyond Fantasy</a> (juego de mesa de interpretación con dados, estilo Dungeons and Dragons) por medio de una aplicación de escritorio.</p>
+                    <p>Este proyecto incluye un documento Excel con todos los precalculos para crear un personaje siguiendo las reglas del juego (con más de 2000 dependencias y más de 20000 datos organizados en tablas e introducidos a mano).</p>
+                    <p>
+                      El proyecto es capaz de cargar dicho documento, extraer la información relevante para poder jugar y generar un documento json con información comprimida así como todas las funcionalidades para realizar los cálculos acorde
+                      a la ficha de personaje previamente cargada.
+                    </p>
+                    <p>Incluye funcionalidades como auto-actualizar versiones (cuando se sube una nueva versión en GitHub) o gestión de carga de multiples personajes simultáneamente.</p>
+                    <p>Actualmente y por petición popular me encuentro desarrollando en equipo la versión web completamente responsive y con funcionalidades extra.</p>
+                    <h5><b>Tecnologías usadas:</b></h5>
+                    <ul class="technologies print-exactly">
+                      <li class="list-inline-item">Java</li>
+                      <li class="list-inline-item">Excel</li>
+                      <li class="list-inline-item">JSON</li>
+                      <li class="list-inline-item">HTML/Bootstrap</li>
+                      <li class="list-inline-item">CSS</li>
+                      <li class="list-inline-item">Javascript</li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="row do-not-print">
+                  <a href="https://github.com/fernaper/AnimaDicer" target="_blank" class="btn btn-dark ml-auto"><i class="fab fa-github-alt"></i> Ver proyecto</a>
+                </div>
+              </div>
+            </div>
             <div class="row subsection lastsubsection">
               <div class="container">
                 <div class="row">
-                  <h2>Otros</h2>
+                  <h2 class="print-small">Otros</h2>
                   <div class="description">
                     <p>
                       Los proyectos principales están mencionado arriba, no obstante considero interesante,
