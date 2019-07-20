@@ -19,6 +19,31 @@ code {
   border-radius: 4px;
 }
 
+.languages {
+  position: static;
+}
+
+.banner {
+  border: 2px solid #e2e2e2;
+  margin-bottom: 20px;
+  max-height: 45px;
+  max-width: 85px;
+  width:100%;
+  border-radius: 5px 15px 5px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  -webkit-transition:-webkit-transform 0.1s ease 0.1s;
+  -moz-transition:-moz-transform 0.1s ease 0.1s;
+  -ms-transition:-ms-transform 0.1s ease 0.1s;
+  -o-transition:-o-transform 0.1s ease 0.1s;
+  animation: notcircle 0.5s;
+  animation-fill-mode: forwards;
+}
+
+.banner:hover {
+  animation: circle 0.5s;
+  animation-fill-mode: forwards;
+}
+
 .vertical-align {
   margin-top: auto;
   margin-bottom: auto;

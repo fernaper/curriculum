@@ -331,10 +331,10 @@ var templates = {
                  <div class="gha-user-info{{withoutName}}">{{{userNameLink}}}<p>{{{userLink}}}</p></div>\
                  <div class="gha-gravatar">{{{gravatarLink}}}</div>\
                </div><div class="gha-push"></div>',
-  Footer: '<div class="gha-footer">Info. repositorios públicos',
+  Footer: '<div class="gha-footer">Public repositories information',
   NoActivity: '<div class="gha-info">This user does not have any public activity yet.</div>',
-  UserNotFound: '<div class="gha-info">Demasiadas peticones a la API de GitHub para el usuario {{username}}.</div>',
-  EventsNotFound: '<div class="gha-info">No se han podido obtener los eventos del usuario {{username}}.</div>',
+  UserNotFound: '<div class="gha-info">Too many requests to the GitHub API for the user {{username}}.</div>',
+  EventsNotFound: '<div class="gha-info">Events could not be obtained from the user {{username}}.</div>',
   CommitCommentEvent: 'commented on commit {{{commentLink}}}<br>{{{userGravatar}}}<small>{{comment}}</small>',
   CreateEvent: 'created {{payload.ref_type}} {{{branchLink}}}{{{repoLink}}}',
   DeleteEvent: 'deleted {{payload.ref_type}} {{payload.ref}} at {{{repoLink}}}',

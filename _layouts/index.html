@@ -1,0 +1,382 @@
+---
+layout: default
+ref: index
+---
+<body>
+  <div class="container-fluid">
+    <div class="row section first-section">
+      <div class="col-md-1 text-center">
+        <div class='languages'>
+          <a href="{% t button.url %}"><img src="assets/img/{% t button.image %}.png" class="print-half banner" alt="{% t button.alt %}"></a>
+          <!--<a href="/en"><img src="assets/img/uk.png" class="print-half banner" alt="English"></a>-->
+        </div>
+      </div>
+      <div class="col-md-7 col-xs-11 text-center vertical-align">
+        <h1>Fernando Pérez Gutiérrez</h1>
+        <p class="bigger-line">
+          <i class="fas fa-desktop"></i> {% t content.developer %}<br>
+          <i class="fas fa-book"></i> {% t content.master %}<br>
+          <i class="fas fa-map-marker-alt"></i> Tres Cantos, Madrid, {% t content.spain %}<br>
+          <i class="fas fa-calendar-alt"></i> <span id="age">0</span><br>
+          <i class="fas fa-mobile-alt"></i><span> +34 627 839 407</span><br>
+          <i class="fas fa-envelope"></i> <a id="mail" href="mailto:fernaperg@gmail.com">fernaperg@gmail.com</a> <br>
+        </p>
+      </div>
+      <div class="col-md-4 col-xs-12 text-center">
+        <img src="assets/img/face.png" class="face print-half" alt="Fernando Pérez Gutiérrez">
+      </div>
+    </div>
+  </div>
+  <div class="container text-justify">
+    <div class="row section section-right">
+      <div class="col-12 textsection">
+        <h1 class="print-small"><i class="fas fa-info-circle"></i> {% t content.about-me %}:</h1>
+        {% t content.about-me-info %}
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-6 col-xs-12 print-small">
+        <div class="section section-left space-left">
+          <h1><i class="fas fa-brain"></i> {% t content.languages %}:</h1>
+          <div class="container space-top">
+            <div class="row print-exactly">
+              <div class="col-10 offset-1">
+                <p class="progress-value"><i class="fab fa-python"></i> Python:</p>
+                <div class="progress">
+                  <div id="py" class="progress-bar" role="progressbar" style="width:93%" aria-valuenow="93" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+                <p class="progress-value"><i class="fab fa-java"></i> Java:</p>
+                <div class="progress">
+                  <div id="jar" class="progress-bar" role="progressbar" style="width:85%" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+                <p class="progress-value"><i class="fab fa-cuttlefish"></i> C++:</p>
+                <div class="progress">
+                  <div id="cpp" class="progress-bar" role="progressbar" style="width:70%" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+                <p class="progress-value"><i class="fab fa-cuttlefish"></i> C:</p>
+                <div class="progress">
+                  <div id="c" class="progress-bar" role="progressbar" style="width:68%" aria-valuenow="68" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+                <p class="progress-value"><i class="fas fa-code"></i> Minizinc:</p>
+                <div class="progress">
+                  <div id="mzn" class="progress-bar" role="progressbar" style="width:66%" aria-valuenow="66" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+                <p class="progress-value"><i class="fab fa-cuttlefish"></i> C#:</p>
+                <div class="progress">
+                  <div id="cs" class="progress-bar" role="progressbar" style="width:60%" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+                <p class="progress-value"><i class="fab fa-google-play"></i></i> Dart:</p>
+                <div class="progress">
+                  <div id="dart" class="progress-bar" role="progressbar" style="width:56%" aria-valuenow="56" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+                <p class="progress-value"><i class="fab fa-css3-alt"></i> CSS:</p>
+                <div class="progress">
+                  <div id="css" class="progress-bar" role="progressbar" style="width:50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+                <p class="progress-value"><i class="fab fa-html5"></i> HTML:</p>
+                <div class="progress">
+                  <div id="html" class="progress-bar" role="progressbar" style="width:45%" aria-valuenow="45" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+                <p class="progress-value"><i class="fab fa-js-square"></i> Javascript:</p>
+                <div class="progress">
+                  <div id="js" class="progress-bar" role="progressbar" style="width:40%" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+                <p class="progress-value"><i class="fas fa-terminal"></i> Bash:</p>
+                <div class="progress">
+                  <div id="sh" class="progress-bar" role="progressbar" style="width:30%" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+                <p class="progress-value"><i class="fab fa-earlybirds"></i> Prolog:</p>
+                <div class="progress">
+                  <div id="pl" class="progress-bar" role="progressbar" style="width:27%" aria-valuenow="27" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+                <p class="progress-value"><i class="fas fa-otter"></i> Go:</p>
+                <div class="progress">
+                  <div id="go" class="progress-bar" role="progressbar" style="width:20%" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 col-xs-12 print-small">
+        <div class="section section-left space-left">
+          <h1><i class="fas fa-database"></i> BBDD:</h1>
+          <div class="container space-top">
+            <div class="row print-exactly">
+              <div class="col-10 offset-1">
+                <p class="progress-value"><i class="fas fa-table"></i> MySQL:</p>
+                <div class="progress">
+                  <div id="sql" class="progress-bar" role="progressbar" style="width:85%" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+                <p class="progress-value"><i class="fas fa-server"></i> Redis:</p>
+                <div class="progress">
+                  <div id="redis" class="progress-bar" role="progressbar" style="width:80%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+                <p class="progress-value"><i class="fab fa-etsy"></i> Elasticsearch:</p>
+                <div class="progress">
+                  <div id="elastic" class="progress-bar" role="progressbar" style="width:65%" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+                <p class="progress-value"><i class="fas fa-tree"></i> MongoDB:</p>
+                <div class="progress">
+                  <div id="mongo" class="progress-bar" role="progressbar" style="width:55%" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+                <p class="progress-value"><i class="fab fa-connectdevelop"></i> Neo4J:</p>
+                <div class="progress">
+                  <div id="neo4j" class="progress-bar" role="progressbar" style="width:40%" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-6 col-xs-12">
+        <div class="section section-right space-left">
+          <h1 class="print-small"><i class="fas fa-globe"></i> {% t content.experience %}:</h1>
+          <div class="container space-top">
+            <div class="row">
+              <ul class="timeline print-exactly">
+              	<li>
+              		<div class="direction-r">
+              			<div class="flag-wrapper">
+              				<span class="flag">Backend Dev.</span>
+              				<span class="time-wrapper"><span class="time">{% t content.months.august %} 2018 - {% t content.present %}</span></span>
+              			</div>
+              			<div class="desc">
+                      {% t content.all-experiences.softpoint%}
+                    </div>
+              		</div>
+              	</li>
+              	<li>
+              		<div class="direction-l">
+              			<div class="flag-wrapper">
+              				<span class="flag">IA Dev.</span>
+              				<span class="time-wrapper"><span class="time">2017 - 2018</span></span>
+              			</div>
+              			<div class="desc">
+                      {% t content.all-experiences.tfg %}
+                    </div>
+              		</div>
+              	</li>
+              	<li>
+              		<div class="direction-r">
+              			<div class="flag-wrapper">
+              				<span class="flag">Monitor</span>
+              				<span class="time-wrapper"><span class="time">{% t content.months.june %} 2014 - {% t content.months.august %} 2014</span></span>
+              			</div>
+              			<div class="desc">
+                      {% t content.all-experiences.monitor %}
+                    </div>
+              		</div>
+              	</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 col-xs-12 page-break">
+        <div class="section section-right space-left">
+          <h1 class="print-small"><i class="fas fa-graduation-cap"></i> {% t content.education %}:</h1>
+          <div class="container space-top">
+            <div class="row">
+              <ul class="timeline print-exactly">
+              	<li>
+              		<div class="direction-r">
+              			<div class="flag-wrapper">
+              				<span class="flag">{% t content.all-educations.master.title %}</span>
+              				<span class="time-wrapper"><span class="time">2018 - {% t content.present %}</span></span>
+              			</div>
+              			<div class="desc">
+                      {% t content.all-educations.master.description %}
+                    </div>
+              		</div>
+              	</li>
+              	<li>
+              		<div class="direction-l">
+              			<div class="flag-wrapper">
+              				<span class="flag">{% t content.all-educations.grade.title %}</span>
+              				<span class="time-wrapper"><span class="time">2014 - 2018</span></span>
+              			</div>
+              			<div class="desc">
+                      {% t content.all-educations.grade.description %}
+                    </div>
+              		</div>
+              	</li>
+              	<li>
+              		<div class="direction-r">
+              			<div class="flag-wrapper">
+              				<span class="flag">{% t content.all-educations.monitor.title %}</span>
+              				<span class="time-wrapper"><span class="time">2014</span></span>
+              			</div>
+              			<div class="desc">
+                      {% t content.all-educations.monitor.description %}
+                    </div>
+              		</div>
+              	</li>
+                <li>
+              		<div class="direction-l">
+              			<div class="flag-wrapper">
+              				<span class="flag">{% t content.all-educations.bachelor.title %}</span>
+              				<span class="time-wrapper"><span class="time">2012 - 2014</span></span>
+              			</div>
+              			<div class="desc">
+                      IES Jorge Manrique, Tres Cantos - Madrid.
+                    </div>
+              		</div>
+              	</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row section section-left">
+      <div class="col-12 textsection">
+        <h1 class="text-left print-small"><i class="fas fa-boxes"></i> {% t content.main-projects %}:</h1>
+        <div class="container space-top">
+          <div class="row subsection">
+            <div class="container">
+              <div class="row">
+                <h2 class="print-small">{% t content.all-projects.tfg.title %}</h2>
+                <p class="version">v1.0.0 - Release</p>
+                <div class="description">
+                  {% t content.all-projects.tfg.description %}
+                  <h5><b>{% t content.used-technologies %}:</b></h5>
+                  <ul class="technologies print-exactly">
+                    <li class="list-inline-item">Python</li>
+                    <li class="list-inline-item">Spacy</li>
+                    <li class="list-inline-item">MongoDB</li>
+                    <li class="list-inline-item">Neo4J</li>
+                    <li class="list-inline-item">{% t content.all-technologies.nlp %}</li>
+                    <li class="list-inline-item">Grafeno</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="row do-not-print">
+                <a href="https://eprints.ucm.es/48879/1/100.pdf" target="_blank" class="btn btn-dark"><i class="fas fa-file"></i> {% t content.view-report %}</a>
+                <a href="https://github.com/bselles/Sistema-de-Busqueda-de-respuestas-adaptable-a-distintos-dominios" target="_blank" class="btn btn-dark ml-auto"><i class="fab fa-github-alt"></i> {% t content.view-project %}</a>
+              </div>
+            </div>
+          </div>
+          <div class="row subsection">
+            <div class="container">
+              <div class="row">
+                <h2 class="print-small">cv2-tools</h2>
+                <p class="version">v2.3.0 - Release</p>
+                <div class="description">
+                  <div class="space-left rounded float-right mx-auto d-block">
+                    <img src="assets/img/example_face_recognition.png" class="face-recognition" alt="Ejemplo librería">
+                  </div>
+                  {% t content.all-projects.cv2.description %}
+                  <h5><b>{% t content.used-technologies %}:</b></h5>
+                  <ul class="technologies print-exactly">
+                    <li class="list-inline-item">Python</li>
+                    <li class="list-inline-item">{% t content.all-technologies.evolutive %}</li>
+                    <li class="list-inline-item">Multithreading</li>
+                    <li class="list-inline-item">{% t content.all-technologies.vision %}</li>
+                    <li class="list-inline-item">{% t content.all-technologies.library %}</li>
+                    <li class="list-inline-item">OpenCV</li>
+                    <li class="list-inline-item">Numpy</li>
+                    <li class="list-inline-item">Git</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="row do-not-print">
+                <a href="https://pypi.org/project/cv2-tools/" target="_blank" class="btn btn-dark"><i class="fab fa-python"></i> Pypi web</a>
+                <a href="https://github.com/fernaper/cv2-tools" target="_blank" class="btn btn-dark ml-auto"><i class="fab fa-github-alt"></i> {% t content.view-project %}</a>
+              </div>
+            </div>
+          </div>
+          <div class="row subsection">
+            <div class="container">
+              <div class="row">
+                <h2 class="print-small">Game-2048-AI</h2>
+                <p class="version">v1.0.0 - CR</p>
+                <div class="description">
+                  {% t content.all-projects.game-2048.description %}
+                  <h5><b>{% t content.used-technologies %}:</b></h5>
+                  <ul class="technologies print-exactly">
+                    <li class="list-inline-item">Python</li>
+                    <li class="list-inline-item">tensorflow</li>
+                    <li class="list-inline-item">tflearn</li>
+                    <li class="list-inline-item">{% t content.all-technologies.evolutive %}</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="row do-not-print">
+                <a href="https://github.com/fernaper/Game-2048-AI" target="_blank" class="btn btn-dark ml-auto"><i class="fab fa-github-alt"></i> {% t content.view-project %}</a>
+              </div>
+            </div>
+          </div>
+          <div class="row subsection">
+            <div class="container">
+              <div class="row">
+                <h2 class="print-small">AnimaDicer</h2>
+                <p class="version">v1.1.0 - Release</p>
+                <div class="description">
+                  {% t content.all-projects.animadicer.description %}
+                  <h5><b>{% t content.used-technologies %}:</b></h5>
+                  <ul class="technologies print-exactly">
+                    <li class="list-inline-item">Java</li>
+                    <li class="list-inline-item">Excel</li>
+                    <li class="list-inline-item">JSON</li>
+                    <li class="list-inline-item">HTML/Bootstrap</li>
+                    <li class="list-inline-item">CSS</li>
+                    <li class="list-inline-item">Javascript</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="row do-not-print">
+                <a href="https://github.com/fernaper/AnimaDicer" target="_blank" class="btn btn-dark ml-auto"><i class="fab fa-github-alt"></i> {% t content.view-project %}</a>
+              </div>
+            </div>
+          </div>
+          <div class="row subsection lastsubsection">
+            <div class="container">
+              <div class="row">
+                <h2 class="print-small">{% t content.all-projects.others.title %}</h2>
+                <div class="description">
+                  {% t content.all-projects.others.description %}
+                  <ul>
+                    <li>{% t content.all-projects.others.smart-assistant %}</li>
+                    <li>{% t content.all-projects.others.rubik-control %}</li>
+                    <li>{% t content.all-projects.others.code-wars %}</li>
+                    <li>{% t content.all-projects.others.goat-queen %}</li>
+                    <li>{% t content.all-projects.others.splay-tree %}</li>
+                    <li>{% t content.all-projects.others.world-generator %}</li>
+                  </ul>
+                  <h5><b>{% t content.used-technologies %}:</b></h5>
+                  <ul class="technologies print-exactly">
+                    <li class="list-inline-item">Python</li>
+                    <li class="list-inline-item">Java</li>
+                    <li class="list-inline-item">C++</li>
+                    <li class="list-inline-item">C#</li>
+                    <li class="list-inline-item">Unity</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="row do-not-print">
+                <a href="https://github.com/fernaper/" target="_blank" class="btn btn-dark ml-auto"><i class="fab fa-github-alt"></i> {% t content.visit-github %}</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row section section-right last-section do-not-print">
+      <div class="col-12">
+        <h1><i class="fab fa-github"></i> GitHub:</h1>
+        <div class="container space-top">
+          <div class="row">
+            <div class="col-12">
+              <div id="feed"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Pre-requisite scripts -->
+  {% include scripts.html %}
+</body>
