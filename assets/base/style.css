@@ -217,8 +217,16 @@ code {
   background-color: #29bdb0;
 }
 
-#sql {
+#mysql {
   background-color: #3765af;
+}
+
+#postgres {
+  background-color: #008bb9;
+}
+
+#oracle {
+  background-color: #b81427;
 }
 
 #mongo {
