@@ -1,0 +1,154 @@
+body {
+  all: initial;
+}
+
+/* ================ The Timeline ================ */
+
+.timeline {
+  all: initial;
+}
+
+.timeline:before {
+  all: initial;
+}
+
+.timeline li {
+  all: initial;
+}
+
+.timeline li:after {
+  all: initial;
+}
+
+.direction-l {
+  all: initial;
+}
+
+.direction-r {
+  all: initial;
+}
+
+.flag-wrapper {
+  all: initial;
+}
+
+.flag {
+  all: initial;
+}
+
+.direction-l .flag {
+  all: initial;
+}
+
+.direction-r .flag {
+  all: initial;
+}
+
+.direction-l .flag:before,
+.direction-r .flag:before {
+  all: initial;
+}
+
+.direction-r .flag:before {
+  all: initial;
+}
+
+.direction-l .flag:after {
+  all: initial;
+}
+
+.direction-r .flag:after {
+  all: initial;
+}
+
+.direction-l .time-wrapper {
+	all: initial;
+}
+
+.direction-r .time-wrapper {
+  all: initial;
+}
+
+.time {
+  display: inline-block;
+  padding: 4px 6px;
+  background: rgba(0, 0, 0, 0);
+}
+
+.desc {
+  all: initial;
+}
+
+.desc::before {
+	content: '\A';
+	white-space: pre;
+}
+
+.direction-r .desc {
+  all: initial;
+}
+
+/* ================ Timeline Media Queries ================ */
+
+/*@media screen and (max-width: 2400px) {*/
+
+.timeline {
+  all: initial;
+}
+
+.timeline li {
+  all: initial;
+}
+
+.direction-l,
+.direction-r {
+  all: revert;
+}
+
+.flag-wrapper {
+  all: revert;
+}
+
+.direction-l .flag:before,
+.direction-r .flag:before {
+	all: revert;
+	content: '\A';
+	white-space: pre;
+}
+
+.direction-l .flag:after,
+.direction-r .flag:after {
+	all: revert;
+}
+
+.time-wrapper {
+  all: initial;
+}
+
+.direction-l .time-wrapper {
+  all: initial;
+}
+
+.direction-r .time-wrapper {
+  all: initial;
+}
+
+.desc {
+  all: initial;
+}
+
+.direction-l .desc,
+.direction-r .desc {
+  all: initial;
+}
+
+.flag {
+	font-weight: bold !important;
+}
+
+.time-wrapper {
+  display: inline!important;
+  line-height: 1em !important;
+  font-size: 0.66666em !important;
+  color: rgb(250,80,80) !important;
+}

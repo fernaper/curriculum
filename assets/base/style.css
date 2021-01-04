@@ -245,6 +245,42 @@ code {
   background-color: #008cc2;
 }
 
+#git {
+  background-color: #6cc644;
+}
+
+#flask {
+  background-color: #303030;
+}
+
+#docker {
+  background-color: #0db7ed;
+}
+
+#gitlabCICD {
+  background-color: #fc6d26;
+}
+
+#swagger {
+  background-color: #0f9921;
+}
+
+#django {
+  background-color: #092e20;
+}
+
+#jenkins {
+  background-color: #0a4a5e;
+}
+
+#aws_stack {
+  background-color: #ff9900;
+}
+
+#kubernetes {
+  background-color: #234bfa;
+}
+
 @keyframes progress {
   from {
     width: 0;
@@ -255,7 +291,7 @@ code {
 }
 
 .progress-bar {
-  animation: progress 10s ease;
+  animation: progress 5s ease;
 }
 
 .progress {
