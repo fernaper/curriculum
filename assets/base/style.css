@@ -265,6 +265,14 @@ code {
   background-color: #0f9921;
 }
 
+#nginx {
+  background-color: #196423;
+}
+
+#apache {
+  background-color: #ce8629;
+}
+
 #django {
   background-color: #092e20;
 }
@@ -279,6 +287,14 @@ code {
 
 #kubernetes {
   background-color: #234bfa;
+}
+
+#graphql {
+  background-color: #f323fa;
+}
+
+#socketio {
+  background-color: #424242;
 }
 
 @keyframes progress {
