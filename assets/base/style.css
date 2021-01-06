@@ -31,6 +31,7 @@ code {
   width:100%;
   border-radius: 5px 15px 5px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  transition: 0.1s ease 0.1s;
   -webkit-transition:-webkit-transform 0.1s ease 0.1s;
   -moz-transition:-moz-transform 0.1s ease 0.1s;
   -ms-transition:-ms-transform 0.1s ease 0.1s;
@@ -56,6 +57,7 @@ code {
   width:95%;
   border-radius: 15px 35px 15px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  transition: 0.1s ease 0.1s;
   -webkit-transition:-webkit-transform 0.1s ease 0.1s;
   -moz-transition:-moz-transform 0.1s ease 0.1s;
   -ms-transition:-ms-transform 0.1s ease 0.1s;
@@ -71,6 +73,7 @@ code {
   width:80%;
   border-radius: 15px 35px 15px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  transition: 0.1s ease 0.1s;
   -webkit-transition:-webkit-transform 0.1s ease 0.1s;
   -moz-transition:-moz-transform 0.1s ease 0.1s;
   -ms-transition:-ms-transform 0.1s ease 0.1s;
@@ -302,7 +305,7 @@ code {
     width: 0;
   }
   to {
-    width: attr(aria-valuenow)%;
+    width: attr(aria-valuenow);
   }
 }
 
